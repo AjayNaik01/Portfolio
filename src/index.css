@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Portfolio Dark Theme Design System */
+
+@layer base {
+  :root {
+    /* Dark portfolio colors */
+    --background: 240 10% 3.9%;
+    --background-secondary: 240 8% 6%;
+    --background-tertiary: 240 6% 8%;
+    --foreground: 0 0% 98%;
+    --foreground-secondary: 240 5% 84%;
+    
+    /* Accent colors */
+    --accent-blue: 217 91% 60%;
+    --accent-purple: 262 83% 58%;
+    --accent-green: 142 76% 36%;
+    --accent-orange: 25 95% 53%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(262 83% 58%));
+    --gradient-secondary: linear-gradient(135deg, hsl(240 8% 6%), hsl(240 6% 8%));
+    --gradient-accent: linear-gradient(135deg, hsl(142 76% 36%), hsl(217 91% 60%));
+    
+    /* Glass effect */
+    --glass-bg: hsla(240, 8%, 6%, 0.8);
+    --glass-border: hsla(240, 5%, 84%, 0.1);
+
+    --card: 240 8% 6%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 8% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 8% 6%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 6% 8%;
+    --muted-foreground: 240 5% 64%;
+
+    --accent: 262 83% 58%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 6% 20%;
+    --input: 240 8% 10%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: hsl(var(--background));
+  }
+}
+
+@layer components {
+  /* Glass morphism effect */
+  .glass {
+    @apply backdrop-blur-lg bg-opacity-80 border border-white/10;
+    background: var(--glass-bg);
+    border-color: var(--glass-border);
+  }
+  
+  /* Gradient text */
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Hover effects */
+  .hover-lift {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .hover-lift:hover {
+    @apply transform -translate-y-1 scale-105;
+    filter: drop-shadow(0 10px 30px hsla(217, 91%, 60%, 0.3));
+  }
+  
+  /* Button variants */
+  .btn-gradient {
+    background: var(--gradient-primary);
+    @apply transition-all duration-300 transform hover:scale-105;
+  }
+  
+  .btn-gradient:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 8px 25px hsla(217, 91%, 60%, 0.4);
+  }
+  
+  /* Skill icon animations */
+  .skill-icon {
+    @apply transition-all duration-300 hover:scale-110;
+  }
+  
+  .skill-icon:hover {
+    filter: drop-shadow(0 0 20px currentColor);
+  }
+}
