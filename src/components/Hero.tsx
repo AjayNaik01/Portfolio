@@ -136,13 +136,15 @@ const Hero = () => {
               className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-6"
             >
               <a
-                href="/Ajay_Resume.pdf"
-                download
+                href="/Ajay_Resume.pdf" // stored in your public folder
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-gradient px-6 py-3 rounded-lg font-medium flex items-center gap-2 text-white text-sm sm:text-base"
               >
                 <FaDownload className="text-sm" />
                 Resume
               </a>
+
               <div className="flex items-center gap-3 sm:gap-4">
                 <a
                   href="https://github.com/AjayNaik01"

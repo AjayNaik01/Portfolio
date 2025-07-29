@@ -12,8 +12,7 @@ I am a highly motivated and curious individual with a strong passion for web dev
 - React.js
 - TypeScript
 - Tailwind CSS
-- Node.js & Express.js
-- MongoDB
+-
 - HTML5 & CSS3
 - JavaScript
 
@@ -22,7 +21,6 @@ I am a highly motivated and curious individual with a strong passion for web dev
 ```
 AJAY_PORTFOLIO/
 ├── public/
-│   ├── Ajay_Resume.pdf
 │   ├── favicon.ico
 │   └── ...
 ├── src/
@@ -57,7 +55,7 @@ You can download my resume [here](public/Ajay_Resume.pdf).
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/AjayNaik01/vivid-glide-site.git
+   git clone https://github.com/AjayNaik01/portfolio.git
    ```
 2. Install dependencies:
    ```sh
