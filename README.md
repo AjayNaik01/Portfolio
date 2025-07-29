@@ -55,7 +55,7 @@ You can download my resume [here](public/Ajay_Resume.pdf).
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/AjayNaik01/portfolio.git
+   git clone https://github.com/AjayNaik01/Portfolio.git
    ```
 2. Install dependencies:
    ```sh
