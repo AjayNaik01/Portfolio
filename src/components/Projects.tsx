@@ -81,14 +81,14 @@ const Projects = () => {
       githubUrl: "#",
     },
     {
-      title: "Task Management Tool",
-      description:
-        "Collaborative project management application with real-time updates, task assignments, and progress tracking. Built for team productivity and efficiency.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
+  title: "RentACar - Car Rental System",
+  description:
+    "A comprehensive web-based car rental system designed to streamline business operations. It includes a powerful admin panel for managing vehicles, users, bookings, and reviewing customer feedback. The user-facing side provides an intuitive interface for browsing cars, making reservations, and submitting feedback.",
+  image: "/placeholder.svg",
+  technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap", "SweetAlert"],
+  liveUrl: "#",
+  githubUrl: "https://github.com/AjayNaik01/RentACar.git",
+}
   ];
 
   return (
