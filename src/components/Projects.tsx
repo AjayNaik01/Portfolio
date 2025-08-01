@@ -76,7 +76,7 @@ const Projects = () => {
   title: "RentACar - Car Rental System",
   description:
     "A comprehensive web-based car rental system designed to streamline business operations. It includes a powerful admin panel for managing vehicles, users, bookings, and reviewing customer feedback. The user-facing side provides an intuitive interface for browsing cars, making reservations, and submitting feedback.",
-  image: "/placeholder.svg",
+  image: "/Screenshot 2025-08-02 002732.png",
   technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap", "SweetAlert"],
   liveUrl: "#",
   githubUrl: "https://github.com/AjayNaik01/RentACar.git",
