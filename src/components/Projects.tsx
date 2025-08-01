@@ -71,15 +71,7 @@ const Projects = () => {
       liveUrl: "https://url-shortner-fonend.vercel.app/",
       githubUrl: "#",
     },
-    {
-      title: "Weather App",
-      description:
-        "A modern weather application with location-based forecasts, interactive maps, and detailed weather analytics. Features clean UI and smooth animations.",
-      image: "/placeholder.svg",
-      technologies: ["React", "API Integration", "Tailwind CSS"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
+    
     {
   title: "RentACar - Car Rental System",
   description:
@@ -88,7 +80,16 @@ const Projects = () => {
   technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap", "SweetAlert"],
   liveUrl: "#",
   githubUrl: "https://github.com/AjayNaik01/RentACar.git",
-}
+},
+    {
+      title: "Weather App",
+      description:
+        "A modern weather application with location-based forecasts, interactive maps, and detailed weather analytics. Features clean UI and smooth animations.",
+      image: "/placeholder.svg",
+      technologies: ["React", "API Integration", "Tailwind CSS"],
+      liveUrl: "https://ajaynaik01.github.io/WeatherApp/",
+      githubUrl: "#",
+    },
   ];
 
   return (
