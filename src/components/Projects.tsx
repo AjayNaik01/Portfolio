@@ -44,7 +44,7 @@ const Projects = () => {
       title: "AI Code Review Tool",
       description:
         "Developed a full-stack code review app using Google’s Generative AI (Gemini).Built the frontend with React, featuring a live code editor and JSX syntax highlighting.",
-      image: "/public/code-reviewer.png",
+      image: "/code-reviewer.png",
       technologies: [
         "React.js",
         "Express.js",
@@ -60,7 +60,7 @@ const Projects = () => {
       title: "URL Shortener",
       description:
         "Developed a full-stack URL shortener application to simplify long URLs into compact, shareable links.Built the frontend using React with a responsive UI and instant redirection preview.",
-      image: "/public/shortUrl.png",
+      image: "/shortUrl.png",
       technologies: [
         "React",
         "Tailwind CSS",
