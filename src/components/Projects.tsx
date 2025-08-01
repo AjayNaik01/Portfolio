@@ -54,7 +54,7 @@ const Projects = () => {
         "Vercel",
       ],
       liveUrl: "https://code-reviewer-tawny.vercel.app/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/AjayNaik01/",
     },
     {
       title: "URL Shortener",
@@ -69,7 +69,7 @@ const Projects = () => {
         "Vercel",
       ],
       liveUrl: "https://url-shortner-fonend.vercel.app/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/AjayNaik01/",
     },
     
     {
@@ -88,7 +88,7 @@ const Projects = () => {
       image: "/placeholder.svg",
       technologies: ["React", "API Integration", "Tailwind CSS"],
       liveUrl: "https://ajaynaik01.github.io/WeatherApp/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/AjayNaik01/WeatherApp.git",
     },
   ];
 
