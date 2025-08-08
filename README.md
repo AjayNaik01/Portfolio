@@ -12,8 +12,6 @@ I am a highly motivated and curious individual with a strong passion for web dev
 - React.js
 - TypeScript
 - Tailwind CSS
--
-- HTML5 & CSS3
 - JavaScript
 
 ## 📂 Project Structure
