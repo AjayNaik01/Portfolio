@@ -111,7 +111,7 @@ const Hero = () => {
                 ref={subtitleRef}
                 className="text-lg sm:text-xl md:text-2xl text-foreground-secondary font-medium"
               >
-                Aspiring Web Developer
+              Web Developer
               </p>
               <div className="flex items-center justify-center lg:justify-start gap-2 text-foreground-secondary">
                 <FaMapMarkerAlt className="text-primary" />
